@@ -1,0 +1,127 @@
+body {
+	background: linear-gradient(89.95deg, #a0f2f8 0.04%, #0e2ccb 99.96%);
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	background: #E5E5E5;
+	margin: 64px;
+	border-radius: 80px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	padding: 20px;
+	border: 1px solid #000000;
+	
+}
+
+.cabecalho{ 
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.perfil{
+	display: flex;
+	align-items: center;
+}
+
+.perfil_foto{
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius:500px;
+	max-height: 200px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	
+}
+
+.titulo{
+	margin-left: 30px;
+}
+
+.titulo-h1{
+	font-size: 64px;
+/* 	line-height: 15px; */
+}
+
+.titulo-h2{
+	font-size: 16pt;
+	font-weight= ;
+}
+
+.titulo-h3{
+	font-size: 16pt;
+	font-weight: normal;
+/* 	line-height: 5px; */
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+	
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.dark-mode{
+	padding:20px;
+/* 	align-self:flex-start; */
+/* 	justify-self: end; */
+}
+
+.dark-mode-button{
+	background: transparent;
+	color: black;
+	border-radius: 50px;
+	font-weight:400;
+	font-size:12pt;
+}
+
+.projetos{
+	margin-top: 30px;
+	display:flex;
+	flex-direction: column;
+}
+
+.projetos-titulo{
+	list-style:none;
+	font-size:30px;
+	font-weight:700;
+}
+
+.projetos-corpo{
+	list-style-type: none;
+	font-size:16pt;
+	font-weight:400;
+	line-height=30px;
+	
+}
+
+.dark{
+	background: #30313A;
+	color: white;
+}
+
+.dark .container{
+	background: #192835;
+	border: 1px solid #FFFFFF;
+}
+
+.dark .dark-mode-button{
+	color: white;
+	border: 1px solid #FFFFFF;
+}
